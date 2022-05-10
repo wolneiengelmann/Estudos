@@ -5,11 +5,11 @@
 // let nota3 = 8;
 // let nota4 = 7.5;
             // 0    1   2   3
-const notas = [10, 6.5, 8, 7.5]
+const notas = [10, 6.5, 8, 7.5, 5.0, 4.0]
 
 //let media = (nota1 + nota2 + nota3 + nota4) / 4
 
-let media = (notas[0] + notas[1] + notas[2] + notas[3]) 
+let media = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4] + notas[5]) 
 / notas.length
 
 console.log("A média é " + media +".")
