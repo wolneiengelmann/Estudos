@@ -28,11 +28,11 @@ const clientes = [
 ]
 //const listaDependentes = [...clientes[0].dependentes,...clientes[1].dependentes]
 
-// let listaDependentes = "";
+let listaDependentes = "";
 
-// for (i = 0; i < clientes.length; i++) {
-//     listaDependentes = [...clientes[i].dependentes, ...clientes[++i].dependentes];
-// }
+for (i = 0; i < clientes.length; i++) {
+     listaDependentes = [...clientes[i].dependentes, ...clientes[++i].dependentes];
+    }
 
 console.log(listaDependentes);
-console.table(listaDependentes);
+//console.table(listaDependentes);
