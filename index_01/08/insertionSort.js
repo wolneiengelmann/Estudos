@@ -8,7 +8,9 @@ function insertionSort (lista){
             let itemAnterior = lista[analise - 1];
             lista[analise] = itemAnterior;
             lista[analise - 1] = itemAnalise;
+
+            analise--
         }
     }
-console.log(lista);
 }
+console.log(lista);
