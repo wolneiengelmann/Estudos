@@ -1,6 +1,6 @@
 const livros = require('./listaLivros');
 
-function insertionSort(lista){
+function insertionSort(lista) {
 
     for (let atual = 0; atual< lista.length; atual++) {
         let analise = atual;
@@ -14,5 +14,5 @@ function insertionSort(lista){
             analise--
         }
     }
+    console.log(lista);
 }
-console.log(lista);
